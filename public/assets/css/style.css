@@ -1,0 +1,91 @@
+:root {
+    --color-vinotinto:     #521f29;
+    --color-vinotinto-dark:#3b151d;
+    --color-crema-suave:   #fdf8f3;
+    --color-dorado:        #e5b871;
+    --color-naranja:       #ff8a00;
+    --color-naranja-hover: #e07a00;
+    --bandera-amarillo:    #ffcc00;
+    --bandera-azul:        #2147de;
+    --bandera-rojo:        #cd1e3e;
+}
+
+body { 
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    background-color: var(--color-crema-suave); 
+    color: #333;
+}
+
+/* Navbar unificada en naranja #ff8a00 */
+.navbar-custom { 
+    background: linear-gradient(135deg, var(--color-naranja), var(--color-naranja-hover)) !important; 
+    box-shadow: 0 4px 20px rgba(255, 138, 0, 0.3); 
+    padding: 10px 0; 
+}
+
+.brand-sub { 
+    font-size: 0.72rem; 
+    color: #ffffff !important; 
+    font-weight: 600; 
+    display: block; 
+}
+
+.brand-main { 
+    font-size: 1.05rem; 
+    color: #ffffff !important; 
+    font-weight: 800; 
+    display: block; 
+}
+
+.nav-link-custom { 
+    color: #ffffff !important; 
+    font-weight: 600; 
+    font-size: 0.90rem; 
+    margin: 0 6px; 
+}
+
+.nav-link-custom:hover { 
+    color: #fff3e0 !important; 
+}
+
+/* Botón Aula Virtual en vinotinto sobre navbar naranja */
+.btn-aula-virtual {
+    background-color: var(--color-vinotinto);
+    color: #ffffff !important; 
+    font-weight: 700; 
+    border-radius: 30px; 
+    padding: 8px 20px;
+    box-shadow: 0 4px 12px rgba(82, 31, 41, 0.3); 
+    text-decoration: none; 
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.btn-aula-virtual:hover {
+    background-color: var(--color-vinotinto-dark);
+    color: #ffffff !important;
+}
+
+/* Botones Naranja Principales */
+.btn-naranja {
+    background: linear-gradient(135deg, var(--color-naranja), var(--color-naranja-hover));
+    color: #ffffff !important;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 138, 0, 0.3);
+}
+
+.btn-naranja:hover {
+    background: linear-gradient(135deg, var(--color-naranja-hover), #c96b00);
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(255, 138, 0, 0.45);
+}
+
+/* Footer Naranja Unificado */
+.footer-naranja {
+    background: linear-gradient(135deg, var(--color-naranja), var(--color-naranja-hover)) !important;
+    color: #ffffff;
+}

@@ -1,0 +1,63 @@
+:root {
+    --color-vinotinto: #ff8a00;
+    --color-vinotinto-dark: #e07b00;
+    --color-dorado: #ffffff;
+    --color-naranja: #ff8a00;
+    --bg-light: #f4f6f9;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--bg-light);
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar Fija con Naranja #ff8a00 */
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    background-color: var(--color-vinotinto);
+    color: #ffffff;
+    z-index: 1000;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin: 4px 12px;
+    transition: all 0.25s ease;
+}
+
+.sidebar .nav-link:hover, 
+.sidebar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+}
+
+/* Contenido Principal */
+.main-content {
+    margin-left: 260px;
+    padding: 30px;
+}
+
+/* Botones Institucionales */
+.btn-vinotinto {
+    background-color: var(--color-vinotinto);
+    color: #ffffff;
+    border-radius: 30px;
+    font-weight: 700;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-vinotinto:hover {
+    background-color: var(--color-vinotinto-dark);
+    color: #ffffff;
+}

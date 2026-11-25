@@ -13,8 +13,10 @@
  */
 
 $host     = 'localhost';
-$port     = '5432';$db       = 'Nora_castaneda';
-$user     = 'postgres';$password = '123456'; 
+$port     = '5432';
+$db       = 'Nora_castaneda';
+$user     = 'postgres';
+$password = '123456'; 
 
 try {
     $dsn = "pgsql:host=$host;port=$port;dbname=$db;";
